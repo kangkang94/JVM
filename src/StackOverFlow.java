@@ -7,13 +7,14 @@
  */
 public class StackOverFlow {
 
-
-    int index=0;
+   private int index=0;
 
     public void stackLeak(){
         index++;
         stackLeak();
     }
+
+    StackOverFlow stackOverFlow = new StackOverFlow();
 
     public static void main(String[] args) {
         StackOverFlow stackOverFlow = new StackOverFlow();
@@ -24,6 +25,5 @@ public class StackOverFlow {
         }
 
     }
-
 
 }
