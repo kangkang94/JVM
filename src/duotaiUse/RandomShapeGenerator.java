@@ -1,4 +1,4 @@
-package interfaceUse;
+package duotaiUse;
 
 import java.util.Random;
 

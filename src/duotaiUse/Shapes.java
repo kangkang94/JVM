@@ -1,4 +1,4 @@
-package interfaceUse;
+package duotaiUse;
 
 /**
  * Created by kang on 17/4/17.
