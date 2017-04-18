@@ -7,6 +7,7 @@ public class Insect {
 
     private int i=9;
     protected int j;
+   // float[] floats = new float[10];
 
     public Insect(){
         System.out.println("i=   "+i+"j=   "+j);
